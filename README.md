@@ -67,21 +67,6 @@ The project is divided into several parts:
 - `int ft_toupper(int c);` - Converts a character to uppercase.
 - `int ft_tolower(int c);` - Converts a character to lowercase.
 
-### Usage
-
-To use the library, compile it and link it with your C programs:
-
-```sh
-make
-gcc -L. -lft your_program.c
-```
-
-Include the header file in your source code:
-
-```c
-#include "libft.h"
-```
-
 ### Compilation
 
 Use the provided Makefile to compile the library:
